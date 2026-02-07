@@ -83,6 +83,7 @@ Each view represents a specific analytical layer:
 - dbo.yearly_music_trends  
 
 These views form the semantic layer used by Power BI for reporting.
+The full SQL definitions of these views are available in the `/sql` folder and reflect the exact logic used by Power BI.
 
 ---
 
