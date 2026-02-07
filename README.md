@@ -100,7 +100,6 @@ Raw Spotify CSV
 All business logic and aggregations are handled in SQL Server.
 Power BI is used purely as a visualization layer on top of the SQL views.
 
---
 
 ## Power BI Dashboards
 
