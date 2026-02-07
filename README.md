@@ -93,7 +93,17 @@ The Power BI report is built using the SQL views above and includes:
 - High-level KPI overview  
 - Audio feature distributions and comparisons  
 - Explicit content impact analysis  
-- Long-term trends in music production and popularity  
+- Long-term trends in music production and popularity
+
+- ### Overview Dashboard
+![Overview Dashboard](images/overview.png)
+
+### Audio Features Analysis
+![Audio Features Distribution](images/audiofeatures-distribution.png)
+
+### Trends Over Time
+![Trends Over Time](images/trends.png)
+
 
 All visuals reflect the final and completed state of the analysis.
 
