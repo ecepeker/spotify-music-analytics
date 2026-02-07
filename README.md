@@ -87,6 +87,21 @@ The full SQL definitions of these views are available in the `/sql` folder and r
 
 ---
 
+## Analytics Architecture
+
+The project follows a layered analytics architecture:
+
+Raw Spotify CSV  
+→ SQL Server (raw ingestion & cleaning)  
+→ `dbo.tracks_final` (analysis-ready table)  
+→ SQL Server Views (analytical semantic layer)  
+→ Power BI (visualization & reporting)
+
+All business logic and aggregations are handled in SQL Server.
+Power BI is used purely as a visualization layer on top of the SQL views.
+
+--
+
 ## Power BI Dashboards
 
 The Power BI report is built using the SQL views above and includes:
